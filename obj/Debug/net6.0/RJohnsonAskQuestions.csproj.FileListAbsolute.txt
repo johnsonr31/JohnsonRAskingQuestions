@@ -1,0 +1,15 @@
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAskQuestions\bin\Debug\net6.0\RJohnsonAskQuestions.exe
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAskQuestions\bin\Debug\net6.0\RJohnsonAskQuestions.deps.json
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAskQuestions\bin\Debug\net6.0\RJohnsonAskQuestions.runtimeconfig.json
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAskQuestions\bin\Debug\net6.0\RJohnsonAskQuestions.dll
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAskQuestions\bin\Debug\net6.0\RJohnsonAskQuestions.pdb
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAskQuestions\obj\Debug\net6.0\RJohnsonAskQuestions.csproj.AssemblyReference.cache
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAskQuestions\obj\Debug\net6.0\RJohnsonAskQuestions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAskQuestions\obj\Debug\net6.0\RJohnsonAskQuestions.AssemblyInfoInputs.cache
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAskQuestions\obj\Debug\net6.0\RJohnsonAskQuestions.AssemblyInfo.cs
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAskQuestions\obj\Debug\net6.0\RJohnsonAskQuestions.csproj.CoreCompileInputs.cache
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAskQuestions\obj\Debug\net6.0\RJohnsonAskQuestions.dll
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAskQuestions\obj\Debug\net6.0\refint\RJohnsonAskQuestions.dll
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAskQuestions\obj\Debug\net6.0\RJohnsonAskQuestions.pdb
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAskQuestions\obj\Debug\net6.0\RJohnsonAskQuestions.genruntimeconfig.cache
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonAskQuestions\obj\Debug\net6.0\ref\RJohnsonAskQuestions.dll
