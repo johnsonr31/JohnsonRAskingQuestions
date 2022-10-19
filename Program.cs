@@ -4,7 +4,14 @@
 // Here is where we declare the "playAgain" bool
 bool playAgain = true;
 bool isNumber;
+bool isNumber2;
 int wakeTime = 0;
+int wakeMinute = 0;
+int hourLengthMax = 1;
+int inputHourLength;
+int inputMinuteLength;
+int minuteLengthMax = 2;
+string digits = "1234567890";
 
 // This while loop will continue looping as long as playAgain is true
 Console.Clear();
@@ -33,34 +40,57 @@ while(playAgain == true)
 
         Console.WriteLine(" ");
         Console.WriteLine("Now, what time did you wake up today?");
-        Console.Write("Enter the hour you woke up: ");
+        Console.Write("Enter the hour you woke up (use 1 digit): ");
         string awake = Console.ReadLine();
+        // After the user's input is taken, the code below will validate that their input is a number, and convert it to an int
         isNumber = Int32.TryParse(awake, out wakeTime);
+        inputHourLength = awake.Length;
 
-        if(isNumber == true)
+        if(isNumber == true && inputHourLength == hourLengthMax) 
         {
-            // This will run if the number is valid
-            Console.WriteLine($"{wakeTime} AM or PM?");
-            Console.Write("Enter AM or PM: ");
-            string amPM = Console.ReadLine();
-            amPM = amPM.ToUpper();
+            Console.WriteLine(" ");
+            Console.Write("Now enter the minutes of the time you woke up (use 2 digits): ");
+            string minutes = Console.ReadLine();
+            isNumber2 = Int32.TryParse(minutes, out wakeMinute);
+            inputMinuteLength = minutes.Length;
+                if(isNumber2 == true && inputMinuteLength == minuteLengthMax)
+                {
+                    // This will run if the number is valid
+                    Console.WriteLine($"{wakeTime}:{wakeMinute} AM or PM?");
+                    Console.Write("Enter AM or PM: ");
+                    string amPM = Console.ReadLine();
+                    amPM = amPM.ToUpper();
 
-            if (amPM == "AM" || amPM == "PM")
-            {
-                // This will run if the player enters AM or PM
-                Console.WriteLine($"So your name is {name}, and you woke up at {wakeTime} {amPM}");
-                Console.WriteLine(" ");
-            }
-            else
-            {
-                // This will run if the player enters anything else
-                Console.WriteLine("Invalid input");
-            }
+                        if (amPM == "AM" || amPM == "PM")
+                        {
+                        // This will run if the player enters AM or PM
+                        Console.WriteLine($"So your name is {name}, and you woke up at {wakeTime}:{wakeMinute} {amPM}.");
+                        Console.WriteLine("Hopefully you got enough sleep.");
+                        Console.WriteLine(" ");
+                        }
+                        else
+                        {
+                        // This will run if the player enters anything else
+                        Console.WriteLine("Invalid input");
+                        Console.WriteLine(" ");
+                        }
+                }
+                else
+                {
+                    // This will run if the user entered something that isn't a number
+                    Console.WriteLine("Invalid Input");
+                    Console.WriteLine(" ");
+                }
+
+
+            
         }
         else
         {
             // This will run if the user inputs anything that isn't a valid number
             Console.WriteLine("Invalid Input");
+            Console.WriteLine(" ");
+            
         }
         
 
@@ -69,5 +99,6 @@ while(playAgain == true)
     {
         // This will run if the user types anything aside from YES or NO
         Console.WriteLine("Invalid Input");
+        Console.WriteLine(" ");
     }
 }
