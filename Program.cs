@@ -62,6 +62,7 @@ while(playAgain == true)
                 Console.WriteLine($"So your name is {name}, and you woke up at {wakeTime} {amPM}.");
                 Console.WriteLine("Hopefully you got enough sleep.");
                 Console.WriteLine(" ");
+                time = false;
             }
             else
             {
